@@ -1,0 +1,32 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+$fa-font-path:"../webfonts";
+@import '~admin-lte/dist/css/adminlte.css';
+
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+// Core variables and mixins
+@import 'mixins.scss';
+
+// Global CSS
+@import 'global.scss';
+
+// Components
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'services.scss';
+@import 'portfolio.scss';
+@import 'timeline.scss';
+@import 'team.scss';
+@import 'contact.scss';
+@import 'footer.scss';
